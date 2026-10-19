@@ -2311,13 +2311,13 @@ refreshOverview();
   #page-overview table.min{min-width:0 !important;table-layout:auto !important;width:100% !important}
   #page-overview table.min thead{display:none !important}
   #page-overview #tableBody tr{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:12px;margin:0 0 12px;padding:6px 12px}
-  #page-overview #tableBody td{display:flex;justify-content:space-between;align-items:center;gap:12px;width:auto !important;min-width:0 !important;max-width:none !important;padding:7px 0 !important;border-bottom:1px dashed #eef3f8;white-space:normal;text-align:right}
+  #page-overview #tableBody td{display:flex;justify-content:space-between;align-items:center;gap:12px;width:auto !important;min-width:0 !important;max-width:none !important;padding:8px 0 !important;border-bottom:1px dashed #eef3f8;white-space:normal;text-align:right;font-size:14px;font-weight:500}
   #page-overview #tableBody td:last-child{border-bottom:none}
   #page-overview #tableBody td[colspan]{display:table-cell;text-align:center}
-  #page-overview #tableBody td:not([colspan])::before{font-size:12px;font-weight:700;color:var(--muted);text-align:left;flex:0 0 auto}
+  #page-overview #tableBody td:not([colspan])::before{font-size:14px;font-weight:500;color:#64748b;text-align:left;flex:0 0 auto}
   #page-overview #tableBody td:not([colspan]):nth-child(1){display:none}
   #page-overview #tableBody td:not([colspan]):nth-child(2)::before{content:'Tổ'}
-  #page-overview #tableBody td:not([colspan]):nth-child(3){order:-2;justify-content:flex-start;font-weight:800;font-size:16px;color:#1e4a6e}
+  #page-overview #tableBody td:not([colspan]):nth-child(3){order:-2;justify-content:flex-start;font-weight:700;font-size:15px;color:#1e4a6e;padding-top:2px !important}
   #page-overview #tableBody td:not([colspan]):nth-child(3)::before{content:none}
   #page-overview #tableBody td:not([colspan]):nth-child(4)::before{content:'Công suất (kVA)'}
   #page-overview #tableBody td:not([colspan]):nth-child(5)::before{content:'Điện nhận (kWh)'}
